@@ -1,4 +1,4 @@
-Professional README version
+
 # Insert Node in Binary Search Tree (BST)
 
 C++ implementation of inserting a node into a Binary Search Tree (BST) with inorder traversal for verification.
@@ -45,10 +45,12 @@ The program includes:
 ```bash
 g++ main.cpp -o bst
 
+```
 
 Run:
-
+```
 ./bst
+```
 ---
 
 ⏱ Complexity
@@ -61,3 +63,21 @@ Worst Case: O(n)
 
 🛠 Language Used
 C++
+
+---
+
+## Example Output
+
+Before insertion:
+20 30 40 50 60 70 80
+
+After inserting 65:
+20 30 40 50 60 65 70 80
+
+---
+
+## Problem explanation 
+A Binary Search Tree maintains elements in sorted order.
+Insertion places the new value in the correct position
+based on BST properties.
+
